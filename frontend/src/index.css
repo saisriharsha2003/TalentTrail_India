@@ -1,0 +1,28 @@
+/* src/tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* styles.css */
+/* styles.css */
+/* styles.css */
+.phone-input-container .react-tel-input .form-control {
+    width: 380px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    padding-left: 70px; /* Add space to the left for digits */
+  }
+  
+  /* .phone-input-container .react-tel-input .flag-dropdown {
+    margin-left: -40px; /* Move the country selection code to the left */
+  /* } */ */
+  
+  .phone-input-container .react-tel-input .form-control:hover {
+    border-color: black;
+  }
+  
+  
